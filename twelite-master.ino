@@ -89,4 +89,7 @@ void loop() {
   // write = Serialにデータを送っている
   //availableで実行可能かを判定している
   //センサーの値を送るにはwhileの中をいじればいい
+
+  //わかってないこと
+  //そもそものSerial.readの挙動がわからない，54行のMWSerial.read()のデータをreadしている？
 }
