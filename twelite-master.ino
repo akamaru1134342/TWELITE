@@ -92,4 +92,6 @@ void loop() {
 
   //わかってないこと
   //そもそものSerial.readの挙動がわからない，54行のMWSerial.read()のデータをreadしている？
+  //http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=3278によると1バイトのデータを返しているがTWELITEのデータは全て1バイトではないはず
+  //あと，何のデータを読んでいるのか．変数をリードしているのか
 }
